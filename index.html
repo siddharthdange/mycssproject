@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=++, initial-scale=1.0">
+    <title>footer</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }           
+
+        footer {
+            background: linear-gradient(18deg, #00ffff, #ff02ff, yellow);
+            padding-top: 50px;
+            margin-top: 25%;
+        }
+
+        .container {
+            width: 1100px;
+            height: 320px;
+            color: #000;
+            font-family: sans-serif;
+            margin: auto;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .footer-content-heding {
+            padding: 10px 0px;
+        }
+
+        .footer-content.form {
+            width: 340px;
+            background: #ebe4e4;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .form {
+            width: 340px;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            width: 340px;
+            color: black;
+            background: linear-gradient(rgb(141, 203, 203), rgb(200, 168, 168));
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 20px;
+            display: block;
+            margin: 20px 0px;
+        }
+
+        .btn:hover {
+            color: #c315afb2;
+            box-shadow: 0 0 0 2px #00ffff, 0 0 0 6px #f10577d3;
+        }
+
+        .footer-content i {
+            font-size: 30px;
+            margin: 15px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <footer>
+        <div class="container">
+
+            <div class="footer-content">
+                <h3 class="footer-content-heding">Newsletter</h3>
+                <span>Get notified when we publish something new! Unsubscribe anytime.</span>
+                <form>
+                    <input class="form" type="your email" placeholder="your email">
+                    <button class="btn">Subscribe</button>
+                </form>
+                <form>
+                    <input type="checkbox">
+                    <label for="">Send me updates about z creative labs products</label>
+
+                </form>
+
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-content-heding">Contact us</h3>
+                <span>Have a generative design project in mind? Let's chat!updates <u>hello@zcreativelabs.com</u></span>
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-content-heding">More products</h3>
+                <p>If you like svg shape generators, try Blobmaker.app
+                    <u>Blobmaker.app</u>
+                </p>
+                <p><i class="fa-solid fa-star"></i> <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-book"></i>
+                <p> You can now make waves directly in Figma!
+                    <u>Get the Figma plugin</u>
+                </p>
+                <p>Have a minute? Challenge yourself with our fun geo quiz! <u>Start playing</u></p>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
